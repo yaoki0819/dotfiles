@@ -127,3 +127,5 @@ setopt AUTO_PARAM_KEYS
 alias pbcopy='xsel --clipboard --input'
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+export PATH="$PATH:/mnt/c/Users/yaoki/AppData/Local/Programs/cursor/resources/app/bin"
