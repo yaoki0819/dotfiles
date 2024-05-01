@@ -1,7 +1,9 @@
-dotfiles
+<h2>dotfiles</h2>
 
-Features
- zshrc
+<h2>Features</h2>
+ <li>zshrc</li>
+ <li>vimrc</li>
+ <li>gvimrc</li>>
 
-Recommended OS
- Ubuntu
+<h2>Recommended OS</h2>
+ <li>Ubuntu</li>
