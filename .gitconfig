@@ -1,0 +1,10 @@
+[ghq]
+	root = /home/yaoki0819/git
+[user]
+	name = yaoki0819
+	email = yaokitanaka@gmail.com:
+
+[url "github:"]
+    InsteadOf = https://github.com/
+    InsteadOf = git@github.com:
+
