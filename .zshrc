@@ -69,7 +69,7 @@ function peco-history-selection() {
   zle reset-prompt
 }
 zle -N peco-history-selection
-bindkey '^R' peco-history-selection
+bindkey '^H' peco-history-selection
 
 ## カレントディレクトリ以下のディレクトリ検索・移動
 function find_cd() {

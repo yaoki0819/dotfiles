@@ -8,3 +8,5 @@
     InsteadOf = https://github.com/
     InsteadOf = git@github.com:
 
+[init]
+	defaultBranch = main
