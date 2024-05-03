@@ -37,9 +37,6 @@ zinit light-mode for \
 #### zsh-completions
 zinit light zsh-users/zsh-completions
 
-# alias
-alias ls="gls --color=auto"
-
 
 
 
