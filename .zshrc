@@ -37,6 +37,13 @@ zinit light-mode for \
 #### zsh-completions
 zinit light zsh-users/zsh-completions
 
+# alias
+alias ls="gls --color=auto"
+
+
+
+
+
 ## コマンド補完
 zinit ice wait'0'; zinit light zsh-users/zsh-completions
 autoload -Uz compinit && compinit
