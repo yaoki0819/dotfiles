@@ -57,7 +57,6 @@ zinit light zsh-users/zsh-syntax-highlighting
 
 ## 履歴補完
 zinit light zsh-users/zsh-autosuggestions
-
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
 
 
@@ -133,7 +132,9 @@ alias pbcopy='xsel --clipboard --input'
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 
-export PATH="$PATH:/mnt/c/Users/yaoki/AppData/Local/Programs/cursor/resources/app/bin"
+export PATH="$PATH:/mnt/c/Users/yaoki/AppData/Local/Programs/Microsoft VS Code/bin"
+
+
 
 
 # >>> conda initialize >>>
@@ -150,4 +151,17 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+
+
+# デフォルト設定
+export LS_COLORS="no=32:fi=31:di=34:ln=36:ex=35:ow=93"
+alias ls='ls -F --color'
+
 
