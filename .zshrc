@@ -164,4 +164,3 @@ export NVM_DIR="$HOME/.nvm"
 export LS_COLORS="no=32:fi=31:di=34:ln=36:ex=35:ow=93"
 alias ls='ls -F --color'
 
-
